@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字藥房</title>
+    <link rel="icon" type="image/x-icon" href="../img/book.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/star-rating-svg.css">
+    <link rel="stylesheet" href="../css/buybuttom.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../js/jquery.star-rating-svg.js"></script>
+    <script src="../js/jquery.star-rating-svg.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script>
+        function plus(){
+            var node = document.getElementById("num");
+            var num = Number(node.innerHTML);
+            num++;
+            node.innerHTML = num;
+        }
+
+        function reduce(){
+            var node = document.getElementById("num");
+            var num = Number(node.innerHTML);
+            if(num>1){
+                num--;
+            }
+            else{
+                alert("錯誤");
+            }
+            node.innerHTML = num;
+        }
+    </script>
+</head>
+<body>
+    <!-- header -->
+    <nav class="topmenu">
+        <div class="gotop">
+            <a href="#top">
+                <img src="../img/up.png" alt="goup" width="50px"/>
+            </a>
+        </div>
+        <div class="logo">
+            <h1>
+                <a href="../page/index.html"></a>
+            </h1>
+        </div>
+        <div class="list">
+            <ul >
+                <li class="listleft1">
+                    <a href="../page/about.html"style="text-decoration:none;" ><b>關於</b> </a>
+                </li>
+                
+                <li class="listleft2">
+                    <a href="../page/cate.html"style="text-decoration:none;" ><b>分類</b></a>
+                <li>
+
+                <li class="listright1">
+                    <a href="../page/LogIn.html"style="text-decoration:none;" ><b>登入</b></a>
+                </li>
+
+                <li class="listright2">
+                    <a href="../page/UserInfo.html" style="text-decoration:none;">會員中心</a>
+                </li>
+
+                <li class="listright3">
+                    <a href="../page/buy.html" style="text-decoration:none;">購物車</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- header end -->
+    <div style="height: 120px;"></div>
+    <section class="product">
+        <div class="img">
+            <img src="https://picsum.photos/200/300" alt=""  />
+        </div>
+        <div class="price">
+            <h1>商品名稱</h1>
+            <p>副標題:</p>
+            <p>作者:</p>
+            <p>出版社:</p>
+            <p>價錢:</p>
+            <div class="center w2 p">
+                <div class="tb tbb">
+                    <table style="border-collapse: collapse; margin: 0;">
+                        <tr>
+                            <td><button class="b1-1 w1" onclick="reduce()">-</button></td>
+                            <td>
+                                <p class="w2" id="num">1</p>
+                            </td>
+                            <td><button class="b1-2 w1" onclick="plus()">+</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <input type="button" value="加入購物車" name="按鈕名稱" style="width:150px;height:50px;">
+
+        </div>
+        
+    </section>
+    <div class="clear"></div>
+    <div style="height: 400px;"></div>
+    <hr>
+    
+    <div class="introduce">
+        
+        <pre>
+
+
+
+
+
+                    日本亞馬遜商務溝通類第一名
+                    百萬暢銷書作家五百田達成為高敏感族群特別設計40句防禦金句，讓你不再為一句話傷透
+                    安慰、建議、協助⋯⋯明明是能讓人安心的話語，卻很可能讓人更委屈、很受傷。向旁人傾訴
+                    ，卻得到「別想太多」、「別太敏感了」的回應，難道問題出在我身上？
+                    日本百萬暢銷書作家五百田達成因為高敏感的特質，從小就容易「為他人的一句話所傷」
+                    ，經常為此苦思「是我做錯什麼嗎？」也在人際關係上吃了許多悶虧。
+                    他接觸心理學並取得全球職涯發展師資格，在協助學員的過程中，他發現許多溝通問題都來自於
+                    「急於解決問題，忽略同理情緒」於是，他結合心理學理論與自己的經驗，
+                    為高敏感族群設計專屬的不受傷溝通法。
+                    透過40個情境練習，覺察對話中的毒性關鍵字，
+                    　　面對棘手人物也能堅定說出真實想法，不再為一句話傷透心。
+
+                    好評推薦
+                    　「書中的文字把人際溝通的想像力與理解力落實得非常接地氣，
+                    而且用40個切貼近生活的語句，讓我們反思你和身邊人互動的情境。」
+                    ——王介安／GAS口語魅力培訓® 創辦人
+
+                    　　本書對我來說較有幫助之處是，它提醒了我：在某些情境之中，
+                    確實有人會這樣説、會有這樣的想法。我們都能借用這些情境來預演與思考。
+                    期盼讀者能在這樣的激盪中，琢磨出屬於自己、適合自己的人際應對智慧。
+            ——蘇益賢／臨床心理師
+
+        </pre> 
+    </div>
+    <div style="height: 100px;"></div>
+    
+    
+    <div class="comment border">
+
+        <div class="my-rating"></div>
+        <script>
+            $(".my-rating").starRating({
+                totalStars: 5,
+                emptyColor: 'lightgray',
+                hoverColor: 'salmon',
+                activeColor: 'cornflowerblue',
+                initialRating: 4,
+                strokeWidth: 0,
+                useGradient: false,
+                minRating: 1,
+                callback: function(currentRating, $el){
+                    // make a server call here
+                    alert('rated ' + currentRating);
+                    console.log('DOM element ', $el);
+                }
+            });
+        </script>
+        <form action="" method="get">
+            <label for="fname" class="commenttext"><h4>留下對商品的評論</h4> </label>
+            <br>
+            <textarea name="6" cols="60" rows="5" style="width: 50%;"></textarea>
+            <div class="commentbtn">
+                <input type="submit" name="Submit" value="送出" >
+            </div>
+          </form>
+<!-- 評論 -->
+        <div>
+            <hr class="line">
+            <p class="name">XXX</p>
+            <p class="date">2023/1/5</p>
+            <div class="my-rating-1"></div>
+            <script>
+                $(".my-rating-1").starRating({
+                    starSize:20,
+                    totalStars: 5,
+                    emptyColor: 'lightgray',
+                    activeColor: 'cornflowerblue',
+                    initialRating: 5,
+                    strokeWidth: 0,
+                    useGradient: false,
+                    minRating: 1,
+                    readOnly: true,
+                });
+            </script>
+            <p>看完心情很好！</p>
+        </div>
+
+        <div>
+            <hr class="line">
+            <p class="name">XXX</p>
+            <p class="date">2023/1/1</p>
+            <div class="my-rating-1"></div>
+            <script>
+                $(".my-rating-1").starRating({
+                    starSize:20,
+                    totalStars: 5,
+                    emptyColor: 'lightgray',
+                    activeColor: 'cornflowerblue',
+                    initialRating: 5,
+                    strokeWidth: 0,
+                    useGradient: false,
+                    minRating: 1,
+                    readOnly: true,
+                });
+            </script>
+            <p>因為這本書想開了很多事情</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div style="height: 500px;"></div>
+    <footer>
+        <div>
+            <p class="footer-text">Copyright© 2022 by WORD DRUGSTORE | </p>
+        </div>
+    </footer>
+    
+</body>
+</html>

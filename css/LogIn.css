@@ -1,0 +1,173 @@
+/*框架排版*/
+div .content{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+div .blank{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom-style: solid;
+    border-width: medium;
+}
+div .design {
+    background:linear-gradient(90deg, brown, rgb(223, 221, 221));
+    height: 87.3vh;
+    width: 70%;
+    float: left;
+    padding: 0 0 0 0;
+}
+
+/*背景字樣*/
+img .letter{
+    -webkit-mask-image: radial-gradient(transparent 0%, transparent 50%, black 50%, black);
+    mask-image: radial-gradient(transparent 0%, transparent 50%, black 50%, black);
+}
+div .letter1{
+    -webkit-mask-image: radial-gradient(black 0%, black 50%, transparent 50%, transparent);
+    text-align: center;
+    width: 17.5vw;
+    height: 17.5vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 0 0 0;
+    background-color: white;
+}
+div .letter2{
+    -webkit-mask-image: radial-gradient(black 0%, black 50%, transparent 50%, transparent);
+    text-align: center;
+    width: 17.5vw;
+    height: 17.5vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 0 0 0;
+    margin-left: 50%;
+    margin-top: -15%;
+    background-color: white;
+}
+div .letter3{
+    -webkit-mask-image: radial-gradient(black 0%, black 50%, transparent 50%, transparent);
+    text-align: center;
+    width: 17.5vw;
+    height: 17.5vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 0 0 0;
+    margin-left: 25%;
+    margin-top: -15%;
+    background-color: white;
+}
+div .letter4{
+    -webkit-mask-image: radial-gradient(black 0%, black 50%, transparent 50%, transparent);
+    text-align: center;
+    width: 17.5vw;
+    height: 17.5vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 0 0 0;
+    margin-left: 75%;
+    margin-top: -15%;
+    background-color: white;
+}
+
+/*實際介面 - 登入*/
+div .interface {
+    background-color:rgb(223, 221, 221);
+    height: 87.3vh;
+    width: 30%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+div .title{
+    font-size: 100px;
+    width:100%;
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: brown;
+    font-weight: 700;
+}
+
+/*表單項目*/
+form{
+    margin: 0 3%;
+    width: 90%;
+    font-size: 30px;
+    padding: 0 1%;
+    text-align: center;
+}
+input[type=textbox] {
+    width: 75%;
+    height: 40px;
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 0 4%;
+    margin: 2% 0;
+}
+input[type=button] {
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 0 4%;
+    margin: 2% 0;
+    text-align: center;
+}
+input[type=submit] {
+    width: 50%;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 0 4%;
+    margin: 2% 0;
+    text-align: center;
+}
+input[type=submit]:hover {
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.3s;
+}
+
+/*連結按鈕*/
+div.button {
+    width: 40%;
+    height: 40px;
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 0 4%;
+    margin: 2% 0;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+div .button > a {
+    text-decoration:none;
+    color:inherit;
+}
+div .button > a:checked {
+    text-decoration:none;
+    color:inherit;
+}
+div .button:hover {
+    font-weight: bold;
+    font-size: 25px;
+    color: brown;
+    transition: 0.3s;
+}

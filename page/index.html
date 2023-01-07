@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字藥房</title>
+    <link rel="icon" type="image/x-icon" href="../img/book.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/slide.css">
+
+</head>
+<body>
+    <!-- header -->
+    <nav class="topmenu">
+        <div class="gotop">
+            <a href="#top">
+                <img src="../img/up.png" alt="goup" width="50px"/>
+            </a>
+        </div>
+    
+        <div class="logo">
+            <h1>
+                <a href="../page/index.html"></a>
+            </h1>
+        </div>
+        <div class="list">
+            <ul >
+                <li class="listleft1">
+                    <a href="../page/about.html"style="text-decoration:none;" ><b>關於</b> </a>
+                </li>
+                
+                <li class="listleft2">
+                    <a href="../page/cate.html"style="text-decoration:none;" ><b>分類</b></a>
+                <li>
+
+                <li class="listright1">
+                    <a href="../page/LogIn.html"style="text-decoration:none;" ><b>登入</b></a>
+                </li>
+
+                <li class="listright2">
+                    <a href="../page/UserInfo.html" style="text-decoration:none;">會員中心</a>
+                </li>
+
+                <li class="listright3">
+                    <a href="../page/buy.html" style="text-decoration:none;">購物車</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- header end -->
+    <!-- 輪播圖 -->
+    <main >
+        <div class="ad">
+            <div class="mySlides fade">
+                
+                <a href="#" target="_blank" class="ad1"><img src="../img/carousel-img3.jpg" style="width:100%"></a>
+
+            </div>
+            
+            <div class="mySlides fade">
+                
+                <a href="#" target="_blank" class="ad1"><img src="../img/carousel-img2.jpg" style="width:100%"></a>
+
+            </div>
+            
+            <div class="mySlides fade">
+                
+                <a href="#" target="_blank" class="ad1"><img src="../img/carousel-img4.jpg" style="width:100%"></a>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 5000); 
+                }
+                </script>
+        </div>
+        <div class="clear"></div>
+        <div class="rank">
+            <div>
+                <h1 t>排行榜</h1>
+                <div class="num1">
+                    <div class="a">
+                        <a href="#" target="_blank" class="num1img"><img src="https://picsum.photos/200/300" > </a>
+                    </div>
+                    <div class="b">
+                        <img src="../img/num1.png" alt="1" />    
+                    </div>
+                    
+                    <h2>被討厭的勇氣</h2>
+                </div>
+                <div class="num2">
+                    <div class="c">
+                        <a href="#" target="_blank" class="num1img"><img src="https://picsum.photos/200/300" > </a>
+
+                    </div>
+                    <div class="d">
+                        <img src="../img/num2.png" alt="1" />
+                    </div>
+                    
+                    <h2>真正的快樂處方</h2>
+                </div>
+                <div class="num3">
+                    <div class="e">
+                        <a href="#" target="_blank" class="num1img"><img src="https://picsum.photos/200/300" > </a>
+
+                    </div>
+                    <div class="f">
+                        <img src="../img/num3.png" alt="1" />   
+                    </div>
+                    
+                    <h2>大和日記</h2>
+                </div>
+
+            </div>
+        </div>  
+    </main>
+    <div class="clear"></div>
+    <div style="height: 500px;"></div>
+    <footer>
+        <div class="footer">
+            <p class="footer-text">Copyright© 2022 by WORD DRUGSTORE | </p>
+
+        </div>
+    </footer>
+</body>
+</html>

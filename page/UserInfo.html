@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字藥房－會員中心</title>
+    <link rel="icon" type="image/x-icon" href="../img/book.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/slide.css">
+    <link rel="stylesheet" href="../css/UserInfo.css">
+</head>
+
+<body>    
+    <!-- header -->
+    <nav class="topmenu">
+        <div class="gotop">
+            <a href="#top">
+                <img src="../img/up.png" alt="goup" width="50px"/>
+            </a>
+        </div>
+        <div class="logo">
+            <h1>
+                <a href="../page/index.html"></a>
+            </h1>
+        </div>
+        <div class="list">
+            <ul >
+                <li class="listleft1">
+                    <a href="../page/about.html"style="text-decoration:none;" ><b>關於</b> </a>
+                </li>
+                
+                <li class="listleft2">
+                    <a href="../page/cate.html"style="text-decoration:none;" ><b>分類</b></a>
+                <li>
+
+                <li class="listright1">
+                    <a href="../page/LogIn.html"style="text-decoration:none;" ><b>登入</b></a>
+                </li>
+
+                <li class="listright2">
+                    <a href="../page/UserInfo.html" style="text-decoration:none;">會員中心</a>
+                </li>
+
+                <li class="listright3">
+                    <a href="../page/buy.html" style="text-decoration:none;">購物車</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- header end -->
+    <!--表單正中間 兩邊一樣單色-->
+    <div class="content">
+        <div class="blank"></div>
+        <div class="design">
+            <div class="letter1">
+                <img class="letter" src="../img/letter1.png" alt="" width="50%" height="50%">
+            </div>
+            <div class="letter3">
+                <img class="letter" src="../img/letter3.png" alt="" width="50%" height="50%">
+            </div>
+            <div class="letter2">
+                <img class="letter" src="../img/letter2.png" alt="" width="50%" height="50%">
+            </div>
+            <div class="letter4">
+                <img class="letter" src="../img/letter4.png" alt="" width="50%" height="50%">
+            </div>
+        </div>
+        
+        <!--此頁面為會員資料 -->
+        <div class="interface">
+            <!--左邊navi相同-->
+            <div class="user_center_navi">
+                <div class="navi_title">會員中心</div>
+                <div class="navi_button here">
+                    <a href="../page/UserInfo.html">會員資料＞</a>
+                </div>
+                <div class="navi_button">
+                    <a href="../page/History.html">購買紀錄＞</a>
+                </div>
+                <div class="navi_button">
+                    <a href="../page/Coupon.html">優惠券＞</a>
+                </div>
+            </div>
+            <!--右邊會員資料-->
+            
+            <div class="user_info">
+                <div class="title">會員資料</div>
+                <form class="form" action="" method="POST">
+                    <!--請撈資料填入以下placeholder當中-->
+                    帳號<span>*必填</span> 　:
+                    <input type="textbox" placeholder="*" name="id" required ><br>
+                    密碼<span>*必填</span> 　:
+                    <input type="password" placeholder="*" name="pwd" required><br>
+                    暱稱<span>*必填</span> 　:
+                    <input type="textbox" placeholder="*" name="user_nickname" required><br>
+                    會員姓名 　: <input type="textbox" placeholder="*" name="user_realname"><br>
+                    身分證字號 : <input type="textbox" placeholder="*" name="user_idcard"><br>
+
+                    <!--請撈資料並在Radio當中加入checked屬性-->
+                    性　　別　 :
+                    <input type="radio" name="user_sex" value="sex_boy" checked>男生
+                    <input type="radio" name="user_sex" value="sex_girl">女生<br>
+                    電　　話　 : <input type="textbox" placeholder="*" name="user_phone"><br>
+                    住　　址　 : <input type="textbox" placeholder="*" name="user_address"><br>
+                    <input type="reset" value="取消修改">
+                    <br><br>
+                    <input type="submit" value="確認修改會員資料">
+                </form>
+                </form>
+            </div>
+        </div>
+</body>
+</html>

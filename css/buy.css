@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bc {
+    background-color: #fbf7f4;
+}
+
+footer {
+    background-color: #a1683a;
+    padding: 1%;
+}
+
+.d-foot {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.fix {
+    flex-direction: row-reverse;
+    background-color: #fbf7f4;
+}
+
+.center {
+    align-items: center;
+}
+
+.align-cen {
+    text-align: center;
+}
+
+.div-center {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.d1 {
+    border-style: solid;
+    border-color: #eed2cc;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.d2 {
+    margin: 10px;
+}
+
+.d3 {
+    margin-left: 20%;
+}
+
+.d4 {
+    width: auto;
+    height: 25px;
+}
+
+.w1 {
+    color: #5d5957;
+}
+
+.w2 {
+    color: #5d5957;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.wb {
+    font-weight: bold;
+}
+
+.wm {
+    margin-bottom: 5px;
+}
+
+.i1 {
+    border-radius: 10px;
+}
+
+.tb {
+    border-style: solid;
+    border-color: #5d5957;
+}
+
+.tbb {
+    background-color: white;
+}
+
+.b1-1 {
+    border-style: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5d5957;
+    color: #fbf7f4;
+}
+
+.b1-1:hover {
+    background-color: #c3bbb6;
+    color: #5d5957;
+}
+
+.b1-2 {
+    border-style: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5d5957;
+    color: #fbf7f4;
+}
+
+.b1-2:hover {
+    background-color: #c3bbb6;
+    color: #5d5957;
+}
+
+.b2 {
+    border-style: none;
+    width: 70px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5d5957;
+    color: #fbf7f4;
+}
+
+.b2:hover {
+    background-color: #c3bbb6;
+    color: #5d5957;
+}
+
+.b3 {
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5d5957;
+    color: #fbf7f4;
+    border-radius: 30px;
+}
+
+.b3:hover {
+    background-color: #c3bbb6;
+    color: #5d5957;
+}
+
+
+
+
+
+
+.f1 {
+    height: 100px;
+}
+

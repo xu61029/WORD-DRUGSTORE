@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "微軟正黑體";
+}
+
+body {
+    background-color: #fbf7f4;
+}
+
+footer {
+    background-color: #a1683a;
+    padding: 5%;
+}
+
+.f1 {
+    height: 100px;
+}
+
+.i1 {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.i2 {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.d1 {
+    text-align: center;
+}
+
+.d11 {
+    text-align: center;
+}
+
+.d2 {
+    width: 100%;
+    height: auto;
+}
+
+.d3 {
+    display: flex;
+    padding: 20px 20px 20px 20px;
+}
+
+.d4 {
+    width: auto;
+    height: 25px;
+}
+
+.w1 {
+    font-family: 標楷體;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.w2 {
+    font-family: 標楷體;
+    padding: 7px;
+}
+
+.w3 {
+    padding-top: 5px;
+}
+
+.info {
+    display: none;
+    opacity: 0;
+    position: relative;
+    box-sizing: border-box;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: aliceblue;
+}
+
+.d11:hover .i2 {
+    display: none;
+}
+
+.d11:hover .info {
+    display: block;
+    animation-name: apper;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes apper {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*header*/
+
+.topmenu {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom-style: solid;
+    border-width: medium;
+    z-index: 1000;
+}
+
+.gotop {
+    z-index: 10;
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    opacity: 0.80;
+}
+
+.logo a {
+    padding: 0;
+    background-image: url(../img/logo.png);
+    background-size: 100%;
+    float: left;
+    margin-left: 10%;
+    width: 150px;
+    height: 100px;
+    border-radius: 2px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.list {
+    padding: 20 10px;
+    /* width: 80%; */
+    padding-top: 30px;
+    margin-left: 15%;
+    display: flex;
+    /* position: fixed; */
+    justify-content: space-around;
+
+}
+
+.list a :hover {
+    color: #A1683A
+}
+
+li {
+    display: inline;
+    padding: 10px 20px;
+
+}
+
+.listleft1 {
+    left: 40%;
+    position: absolute;
+    align-items: center;
+    overflow: hidden;
+    height: 100px;
+    width: 72px;
+    color: black;
+
+}
+
+.listleft2 {
+    left: 60%;
+    position: absolute;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+.listright1 {
+    overflow: hidden;
+    align-items: center;
+    padding-top: 10px;
+    position: absolute;
+    right: 190px;
+
+}
+
+.listright2 a {
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    align-items: center;
+    padding-top: 5px;
+    position: absolute;
+    right: 150px;
+    background-image: url(../img/member.png);
+    background-size: cover;
+    float: left;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.listright3 a {
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/shopcar.png);
+    overflow: hidden;
+    align-items: center;
+    padding-top: 10px;
+    position: absolute;
+    right: 90px;
+    background-color: transparent;
+    object-fit: fill;
+    background-size: contain;
+    float: left;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+/*header end*/
